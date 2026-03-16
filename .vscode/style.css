@@ -40,7 +40,8 @@ body *{ font-family: "Inter", sans-serif;
             }   
 
 #container{ 
-    width:360px;
+    width:100%;
+    max-width: 564px;
     margin:56px auto 56px;
     padding:0 24px;
     }
