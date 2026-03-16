@@ -16,7 +16,7 @@ if( html.classList.contains('light')){
 }
 
 if(html.classList.contains('light')){
-    Img.setAttribute('alt','foto de um cara com óculos de sol')
+    Img.setAttribute('alt','foto de um cara com óculos de soll')
 }else{
     Img.setAttribute('alt','foto de um cara com óculos de grau')
 }
