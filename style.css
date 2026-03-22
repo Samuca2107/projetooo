@@ -160,10 +160,10 @@ justify-content: center;
 
   @media ( min-width:768px  ) {
        :root{
-        --bg-url: url(./assets/bg-desktop.jpg);
+        --bg-url: url(./assets/bg-desktop.jpg) !important;
        }
       .light{
-        --bg-url: url(./assets/bg-desktop-light.jpg);
+        --bg-url: url(./assets/bg-desktop-light.jpg)!important;
     
     }
 
