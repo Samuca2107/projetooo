@@ -179,30 +179,4 @@ to{left: 50%}
   }
 
   /* https://samuca2107github.io./projetooo/ */
-  /*...existing code... */
-
-/* Adicione ou ajuste media query para mobile */
-@media (max-width: 768px) {
-    body.dark-mode {
-        background-color: var(--dark-bg-color); /* Garanta que o background seja aplicado */
-        color: var(--dark-text-color);
-    }
-    
-    body.light-mode {
-        background-color: var(--light-bg-color);
-        color: var(--light-text-color);
-    }
-    
-    /* Garanta visibilidade dos botões em mobile */
-    .button-class { /* Substitua pela classe real dos botões */
-        display: block !important; /* Ou flex, dependendo do layout */
-        visibility: visible !important;
-    }
-    
-    /* Se os botões usam position absolute, ajuste para mobile */
-    .button-class {
-        position: relative; /* Ou ajuste conforme necessário */
-    }
-}
-
-/* ...existing code... */
+  
